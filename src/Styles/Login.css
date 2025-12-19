@@ -1,0 +1,86 @@
+.login {
+  min-height: calc(100vh - 160px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1600') center/cover;
+}
+
+.login-container {
+  background: rgba(26, 26, 46, 0.95);
+  padding: 50px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.login-header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.login-form .form-group {
+  margin-bottom: 25px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #667eea;
+  font-weight: 500;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #34495e;
+  border-radius: 8px;
+  background: #2c3e50;
+  color: white;
+  font-size: 16px;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.btn-block {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.error-message {
+  background: #e74c3c;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-info {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 14px;
+  color: #95a5a6;
+}
+
+.login-info code {
+  background: #2c3e50;
+  padding: 2px 8px;
+  border-radius: 3px;
+  color: #667eea;
+}

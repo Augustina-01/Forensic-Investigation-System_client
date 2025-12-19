@@ -1,0 +1,89 @@
+.hero {
+  height: 600px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+              url('https://images.unsplash.com/photo-1568667256549-094345857637?w=1600') center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-overlay h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-overlay p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn-large {
+  padding: 15px 40px;
+  font-size: 18px;
+}
+
+.features {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.features h2 {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 60px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.feature-icon {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.feature-card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #667eea;
+}
+
+.cta {
+  text-align: center;
+  padding: 80px 20px;
+  background: rgba(102, 126, 234, 0.1);
+}
+
+.cta h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.cta p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
